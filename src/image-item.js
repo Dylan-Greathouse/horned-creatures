@@ -7,7 +7,7 @@ class Images extends Component {
             <>
             <p>
                 {this.props.image.name}
-                <img alt={this.props.image.name} width="200" src={this.props.image.url} />
+                <img alt={this.props.image.name} width="200" height="200" src={this.props.image.url} />
             </p>
             </>
 

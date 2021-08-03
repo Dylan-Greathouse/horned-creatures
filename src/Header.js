@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import './Header.css';
 class Header extends Component {
 
     render() { 
         return ( 
             <>
-            <h1>Horned Creatures!</h1>
+            <h1><span>Horned Creatures!</span></h1>
             </>
          );
     }
